@@ -1,0 +1,102 @@
+#!/bin/bash -x
+
+socket_A()
+{
+if [ "$1" == 0 ]
+then
+  echo "socket A off"
+  ./codesend 2151036 4 355
+fi
+
+if [ "$1" == 1 ]
+then
+  echo "socket A on"
+  ./codesend 2751596 4 355
+fi
+}
+
+socket_B()
+{
+if [ "$1" == 0 ]
+then
+  echo "socket B off"
+  ./codesend 2332373 4 355
+fi
+
+if [ "$1" == 1 ]
+then
+  echo "socket B on"
+  ./codesend 2239477 4 355
+fi
+}
+
+socket_C()
+{
+if [ "$1" == 0 ]
+then
+  echo "socket C off"
+  ./codesend 2751598 4 355
+fi
+
+if [ "$1" == 1 ]
+then
+  echo "socket C on"
+  ./codesend 2151038 4 355
+fi
+}
+
+socket_D()
+{
+if [ "$1" == 0 ]
+then
+  echo "socket D off"
+  ./codesend 2524983 4 355
+fi
+
+if [ "$1" == 1 ]
+then
+  echo "socket D on"
+  ./codesend 2182727 4 355
+fi
+}
+
+socket_ALL()
+{
+if [ "$1" == 0 ]
+then
+  echo "ALL sockets off"
+  ./codesend 2580754 4 355
+fi
+
+if [ "$1" == 1 ]
+then
+  echo "ALL sockets on"
+  ./codesend 2681010 4 355
+fi
+}
+
+show_help()
+{
+echo "socket (A|B|C|D) (1|0)"
+}
+
+
+if [ "$1" == A ]
+then
+  socket_A $2
+elif [ "$1" == B ]
+then
+  socket_B $2
+elif [ "$1" == C ]
+then
+  socket_C $2
+elif [ "$1" == D ]
+then
+  socket_D $2
+elif [ "$1" == ALL ]
+then
+  socket_ALL $2
+else
+  show_help
+fi
+
