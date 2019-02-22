@@ -69,7 +69,7 @@ The all parameter turns on or off all sockets at once by sending the "master cod
 
 ##
 
-# Here begin the official content of README.md from the https://github.com/Martin-Laclaustra/433Utils repository as from time I cloned it. 
+# Here begin the official content of README.md from the https://github.com/Martin-Laclaustra/433Utils repository as it was at time I cloned it. 
 
 ##
 
