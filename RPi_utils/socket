@@ -78,7 +78,7 @@ fi
 
 show_help()
 {
-echo "Usage: socket (A|B|C|D) (1|0)"
+echo "Usage: socket (A|B|C|D|ALL) (1|0)"
 }
 
 
