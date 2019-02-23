@@ -34,7 +34,7 @@ As mentioned above, you will need at very least 433 MHz transmitter, but having 
 2. Connect your 433 MHz transmitter GND (negative, -) pin to any Ground pin on the Pi header. (F.Ex. Pin No. 9)
 3. Connect your 433 MHz transmitter VCC (positive, +) pin to the only one 3,3V pin (pin No. 1)
 4. Connect your 433 MHz transmitter DATA              pin to pin No. 11 (WiringPi 0)
-*Skip rest if does not have receiever*
+* Skip rest if you does not have receiever
 5. Connect your 433 MHz receiever GND (negative, -) pin to any Ground pin on the Pi header. (F.Ex. Pin No. 14)
 6. Connect your 433 MHz receiever VCC (positive, +) pin to the 5V pin (pin No. 2 or 4)
 7. Connect your 433 MHz receiever DATA              pin to pin No. 13 (WiringPi 2)
