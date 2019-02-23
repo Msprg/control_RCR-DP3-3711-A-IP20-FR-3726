@@ -21,6 +21,7 @@ cd control_RCR-DP3-3711-A-IP20-FR-3726/RPi_utils/
 make clean
 make
 chmod +x RFSniffer send codesend socket
+ 
 ```
 
 # Usage
