@@ -10,7 +10,7 @@ You will need git and wiringpi installed (both should be present in the latest r
 
 You can "install" this onto your Pi with just cloning this repository, and adding executable property to the files.
 
-Here are the commands for the "lazy quick install":
+Here are the commands for the "lazy quick install" (just copy & paste into the terminal) :
 
 ```
 cd ~
