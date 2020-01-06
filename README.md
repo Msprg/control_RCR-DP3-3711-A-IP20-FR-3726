@@ -6,7 +6,7 @@ In the RPi_utils folder are pre-compiled applications "send", "codesend" and "RF
 
 # Dependencies and installation
 
-You will need git and wiringpi installed (both should be present in the latest release of raspbian), I think that is the only dependencies. As hardware, you will need Raspberry Pi of course, and 433 MHz transmitter (ideally you should have both transmitter and receiver, but it is possible to make it work without the receiver).
+You will need git and wiringpi installed (both should be present in the latest release of raspbian), I think that are the only dependencies. As hardware, you will need Raspberry Pi of course, and 433 MHz transmitter (ideally you should have both transmitter and receiver, but it is possible to make it work without the receiver).
 
 You can "install" this onto your Pi with just cloning this repository, and adding executable property to the files.
 
